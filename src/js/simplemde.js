@@ -906,7 +906,7 @@ function _toggleLine(cm, name) {
 	};
 	var map = {
 		"quote": "> ",
-		"unordered-list": "* ",
+		"unordered-list": "- ",
 		"ordered-list": "1. "
 	};
 	for(var i = startPoint.line; i <= endPoint.line; i++) {
